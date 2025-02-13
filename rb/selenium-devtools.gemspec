@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.metadata = {
     'changelog_uri' => 'https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES',
     'github_repo' => 'ssh://github.com/SeleniumHQ/selenium',
-    'source_code_uri' => 'https://github.com/SeleniumHQ/selenium/tree/trunk/rb',
+    'source_code_uri' => 'https://github.com/vincentmendiola/selenium-debugging/rb',
     'rubygems_mfa_required' => 'true',
     'funding_uri' => 'https://github.com/sponsors/SeleniumHQ'
   }

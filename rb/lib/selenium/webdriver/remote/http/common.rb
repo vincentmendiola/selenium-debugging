@@ -96,7 +96,7 @@ module Selenium
             body = body.to_s.strip
             content_type = content_type.to_s
             WebDriver.logger.debug("<- #{body}", id: :command)
-
+            byebug
             if content_type.include? CONTENT_TYPE
               raise Error::WebDriverError, "empty body: #{content_type.inspect} (#{code})\n#{body}" if body.empty?
 

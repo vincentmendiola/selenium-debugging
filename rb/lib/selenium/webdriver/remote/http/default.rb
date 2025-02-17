@@ -70,6 +70,8 @@ module Selenium
           def request(verb, url, headers, payload, redirects = 0)
             retries = 0
 
+            byebug
+
             begin
               request = new_request_for(verb, url, headers, payload)
               response = response_for(request)

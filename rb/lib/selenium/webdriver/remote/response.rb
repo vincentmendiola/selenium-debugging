@@ -36,6 +36,7 @@ module Selenium
 
         def error
           error, message, backtrace = process_error
+          byebug unless error.nil?
           klass = Error.for_error(error) || return
           ex = klass.new(message)
           add_cause(ex, error, backtrace)
